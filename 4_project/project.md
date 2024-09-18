@@ -6,7 +6,6 @@ The dataset is at the address: https://github.com/lrnv/inf-prof/blob/main/4_proj
 
 **You have to** use the pandas library but you are free to use other libraries in addition to pandas. If so please indicate clearly which one you are using.
 
-
 **Context** You will study the Crimes in Chicago dataset. This dataset reflects reported incidents of crime that occurred in the City of Chicago from 2008 to 2011. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at block level only and specific locations are not identified. Disclaimer: These crimes may be based upon preliminary information supplied to the Police Department by reporting parties that have not been verified. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error.
 
 **Dataset content:** The dataset contains the following variables: 
@@ -44,7 +43,7 @@ The dataset is at the address: https://github.com/lrnv/inf-prof/blob/main/4_proj
     a. Which hour of the day had the most number of homicides ?
     b. Which day of the week had the lowest number of theft ?
     c. What was the most common crime reported on christmas day (25th December) ?
-6. The description of the location can sometimes be too specific. For instance,  with airports, each part of the airport is considered as a distinct location. Use Python commands to detect all the locations (in column Location.Description) that involved Airport and replace all the values by 'AIRPORT' in the DataFrame.
+6. The description of the location can sometimes be too specific. For instance,  with airports, each part of the airport is considered as a distinct location. Use Python commands to detect all the locations (in column `Location.Description`) that involved Airport and replace all the values by `'AIRPORT'` in the DataFrame.
 7. We want to compare criminality of all the districts for the year 2008. For that question you will compute the criminality rate of each district. It is computed by dividing the total number of incidents by the total population of the district for the year 2008. You can multiply the results by 100 then to get a number of incidents per 100 habitants. Compute this rate and then present your result by giving a barplot of all the criminality rates computed and use the district name as a label of each bar. _N.B. To help you with this task, this is the population of Chicago Districts reported in the annual report of the Chicago Police Department https://home.chicagopolice.org/wp-content/uploads/2014/12/2008-Annual-Report.pdf_
 
 ```python
@@ -102,3 +101,7 @@ For the second part of the project, you will have to chose one specific type of 
 * Use the `Location.Description` to give insight on where the crime was committed.
 
 Choose at least 3 information to display (not necesseraly from the above list).
+
+**Submission:** Submit the project colab file, containing results, graphics and your answers to the qestions. 
+
+**Evaluation:** You will have to execute your collab file live at the oral examination, and explain the main obtained results. We will ask questions. 
