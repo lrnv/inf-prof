@@ -79,12 +79,11 @@ The dataset is at the address: https://github.com/lrnv/inf-prof/blob/main/4_proj
 
 
 ```python
-district = pd.DataFrame({'District_Number':[i for i in range(1, 26)],
-                 'District_Name': ['Central', 'Wentworth', 'Grand Crossing', 'South Chicago', 'Calumet', 'Gresham',
-                                   'Englewood', 'Chicago Lawn', 'Deering', 'Ogden', 'Harrison', 'Monroe',
-                                   'Wood', 'Shakespeare', 'Austin', 'Jefferson Park', 'Albany Park', 'Near North',
-                                   'Belmont', 'Lincoln', 'Prairie', 'Morgan Park', 'Town Hall', 'Rogers Park', 'Grand Central'],
-                 'Population': [25613, 50957, 93384, 141422, 92729, 105360, 91600, 244470, 165457, 137120, 82392, 69677, 60517, 132459, 72736, 199898, 156859, 110995, 107516, 102512, 78111, 111545, 98391, 151435, 212535]})
+district = pd.DataFrame({
+    'District_Number':[i for i in range(1, 26)],
+    'District_Name': ['Central', 'Wentworth', 'Grand Crossing', 'South Chicago', 'Calumet', 'Gresham', 'Englewood', 'Chicago Lawn', 'Deering', 'Ogden', 'Harrison', 'Monroe', 'Wood', 'Shakespeare', 'Austin', 'Jefferson Park', 'Albany Park', 'Near North', 'Belmont', 'Lincoln', 'Prairie', 'Morgan Park', 'Town Hall', 'Rogers Park', 'Grand Central'],
+    'Population': [25613, 50957, 93384, 141422, 92729, 105360, 91600, 244470, 165457, 137120, 82392, 69677, 60517, 132459, 72736, 199898, 156859, 110995, 107516, 102512, 78111, 111545, 98391, 151435, 212535]
+})
 district.set_index('District_Name', inplace = True)
 ```
 
@@ -102,6 +101,6 @@ For the second part of the project, you will have to chose one specific type of 
 
 Choose at least 3 information to display (not necesseraly from the above list).
 
-**Submission:** Submit the project colab file, containing results, graphics and your answers to the qestions. 
+**Submission:** Submit the project as a jupyter notebook file, containing results, graphics and your answers to the qestions. 
 
-**Evaluation:** You will have to execute your collab file live at the oral examination, and explain the main obtained results. We will ask questions. 
+**Evaluation:** You will have to execute your notebook live at the oral examination, and explain the main obtained results. We will ask questions. 
