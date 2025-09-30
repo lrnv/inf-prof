@@ -102,6 +102,6 @@ Choose at least 3 information to display (not necesseraly from the above list).
 
 **Submission:** Submit the project as a jupyter notebook file, containing results, graphics and your answers to the qestions. 
 
-Due date: Friday the 8th, november. 
+Due date: See readme
 
 **Evaluation:** You will have to execute your notebook live at the oral examination, and explain the main obtained results. We will ask questions. Evaluation Planning will be on Ametice soon.
