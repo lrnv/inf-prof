@@ -17,6 +17,7 @@ Important dates:
 
 * The final project is to be handled on Amétice **before the 2nd of november**, and/or by mail.
 
-* Oral examination will take place on the 12th of November. 
+* Oral examination will take place on the 13th of November. 
+
 
 
