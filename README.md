@@ -70,6 +70,9 @@ setup.
 
 Required Python packages will be specified progressively in the course material.
 
+**Tip:** you could go to [google colab](https://colab.research.google.com/) to run notebooks online instead of locally. 
+
+
 ## Corrections and annotated material
 
 Corrections and annotated versions are not necessarily available at the beginning
